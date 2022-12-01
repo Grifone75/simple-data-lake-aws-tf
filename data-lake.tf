@@ -1,4 +1,4 @@
 module "main-data-lake" {
   source = "./modules/private-bucket"
-  bucket-name = "fg-main-data-lake"
+  bucket-name = var.data_lake_bucket_name
 }
